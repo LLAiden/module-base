@@ -12,10 +12,10 @@ import androidx.fragment.app.FragmentManager
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.viewbinding.ViewBinding
-import com.common.network.R
+import com.aiden.base.R
 import kotlin.math.min
 
-abstract class BaseDIalogFragment<VB : ViewBinding, VM : ViewModel> : DialogFragment() {
+abstract class BaseDialogFragment<VB : ViewBinding, VM : ViewModel> : DialogFragment() {
 
     private var _binding: VB? = null
     private var _viewModel: VM? = null

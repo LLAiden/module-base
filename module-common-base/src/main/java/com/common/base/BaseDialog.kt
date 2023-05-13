@@ -12,7 +12,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.ViewModelStoreOwner
 import androidx.viewbinding.ViewBinding
-import com.common.network.R
+import com.aiden.base.R
 
 abstract class BaseDialog<VB : ViewBinding, VM : ViewModel>(
     context: Context?,
